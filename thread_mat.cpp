@@ -6,8 +6,8 @@
 
 using namespace std;
 
-const int N = 200; // Size of the matrices
-const int NUM_THREADS = 6; // Number of threads to use
+const int N = 100; // Size of the matrices
+const int NUM_THREADS = 4; // Number of threads to use
 
 int A[N][N], B[N][N], C[N][N];
 pthread_t threads[NUM_THREADS];
